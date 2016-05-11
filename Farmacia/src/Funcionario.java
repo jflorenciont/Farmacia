@@ -17,9 +17,9 @@ public class Funcionario extends Pessoa {
 		System.out.println("");
 	}	
 
-	//public double SalarioFinal() {
-		//return salarioBase + gratificacao();
-	//}
+	public double SalarioFinal() {
+		return salarioBase + gratificacao();
+	}
 	
 	//private double gratificacao() {
 		//double gratificacaoBase = 1.24 * funcao;
